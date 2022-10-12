@@ -90,7 +90,7 @@ class Unet(nn.Module):
         #                                   hybr=True, n_classes=7, n_chan=1024)
 
         self.vit =VIT.VisionTransformer(depth=6, n_heads=12, img_size=128, dim=768, patch_size=16, pos_1d=True,
-                                           hybr=True, n_classes=1, n_chan=1024)
+                                           hybr=False, n_classes=1, n_chan=1024)
         self.conv_1024_768 = nn.Conv2d(1024, 768, kernel_size=1, stride=1)
        # self.conv_e_768_1024 = DoubleConv(768, 1024)
         self.conv_e_768_1024 = nn.Conv2d(768, 1024,kernel_size=1,stride=1)
