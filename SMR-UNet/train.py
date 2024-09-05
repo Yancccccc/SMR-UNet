@@ -15,7 +15,7 @@ from tqdm import tqdm
 from losses import BCEDiceLoss
 from metrics import iou_score,dice_coef
 from utils import AverageMeter, str2bool
-from unety import UNett_batcnnorm
+import UNett_batcnnorm
 from torch.utils.data import DataLoader
 import SMRUNet
 
