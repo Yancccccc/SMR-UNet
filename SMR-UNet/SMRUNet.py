@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 import numpy as np
-from UNetVit import VIT
+import VIT
 class ASPP(nn.Module):
     def __init__(self, in_channel):
         depth = in_channel
