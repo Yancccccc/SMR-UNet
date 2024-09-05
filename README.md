@@ -1,5 +1,6 @@
 # SMR-UNet
 感谢引用
+
 J. Hou, C. Yan, R. Li, Q. Huang, X. Fan and F. Lin, "Lung Nodule Segmentation Algorithm With SMR-UNet," in IEEE Access, vol. 11, pp. 34319-34331, 2023, doi: 10.1109/ACCESS.2023.3264789.
 
 既用了LIDC的数据集，也通过专家打标签做了数据集，自己做的数据集没有经过专家和病人同意没法共享。
